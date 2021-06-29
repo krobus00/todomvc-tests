@@ -16,4 +16,6 @@ it('works', () => {
   cy.contains('.todo', 'Learn about React').find('[data-cy=remove]').click()
   cy.get('.todo').should('have.length', 3)
   cy.contains('.todo', 'Learn about React').should('not.exist')
+
+  cy.screenshot('finished', { capture: 'runner' })
 })

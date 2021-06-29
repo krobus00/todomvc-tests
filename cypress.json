@@ -3,5 +3,6 @@
   "fixturesFolder": false,
   "supportFile": false,
   "pluginsFile": false,
-  "video": false
+  "video": true,
+  "projectId": "tbpngn"
 }
