@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bahmutov/todomvc-tests.git"
+    "url": "git+https://github.com/krobus00/todomvc-tests.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bahmutov/todomvc-tests/issues"
+    "url": "https://github.com/krobus00/todomvc-tests/issues"
   },
-  "homepage": "https://github.com/bahmutov/todomvc-tests#readme",
+  "homepage": "https://github.com/krobus00/todomvc-tests#readme",
   "devDependencies": {
     "cypress": "^7.6.0",
     "prettier": "^2.3.2"
