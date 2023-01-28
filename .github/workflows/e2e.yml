@@ -44,8 +44,8 @@ jobs:
           config: baseUrl=${{ github.event.inputs.deployPrimeUrl }}
           # store video and screenshots on Cypress Dashboard
           record: false
-        env:
-          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+        #env:
+        #  CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
 
       # after e2e tests finish, set the status back in the original repo
       # https://github.com/marketplace/actions/github-status-action
