@@ -66,4 +66,4 @@ jobs:
           owner: 'krobus00'
           repository: 'todomvc-no-tests'
           sha: ${{github.event.inputs.commit}}
-          target_url: ${{ steps.cypress.outputs.dashboardUrl }}
+          target_url: ${{ github.event.inputs.deployPrimeUrl }}
