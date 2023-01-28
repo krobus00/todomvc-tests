@@ -10,7 +10,7 @@ on:
       deployPrimeUrl:
         description: Deployed URL
         required: true
-        default: 'https://todomvc-no-tests.netlify.app/'
+        default: 'https://dazzling-malasada-b10fc1.netlify.app/'
       commit:
         description: Original repo commit SHA
         required: false
